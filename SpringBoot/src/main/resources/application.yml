@@ -1,0 +1,16 @@
+server:
+  port: 8001
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///java1315?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: rooy
+    password: 123
+
+logging:
+  level:
+    com.zelin: debug
+
+mybatis:
+  mapper-locations: mapper/*.xml
